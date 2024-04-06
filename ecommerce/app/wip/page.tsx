@@ -1,6 +1,6 @@
-import MovieList from "@/components/productlist";
+import LatestAlbums from "@/components/pj";
 
-const ProductPage = () => {
+const WipPage = () => {
     return (
 
         <main className="my-8">
@@ -8,14 +8,14 @@ const ProductPage = () => {
             <div className="flex flex-wrap -m-4">
                 <div className="p-4 lg:w-1/4 md:w-1/2">
 
-                <MovieList/>
-
+                <LatestAlbums/>
+            
                 </div>
             </div>
         </div>
     </main>
 
     );
-  };
+  }; 
 
-  export default ProductPage;
+  export default WipPage;

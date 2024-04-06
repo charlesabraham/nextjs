@@ -1,0 +1,25 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "product_name": "Octopus, The (Le poulpe)",
+            "genre": "Comedy|Crime|Thriller",
+            "price": "$5.81",
+            "image": "https://robohash.org/consecteturvoluptassit.png?size=100x100&set=set1"
+        },
+        {
+            "id": 2,
+            "product_name": "Cold Storage",
+            "genre": "Thriller",
+            "price": "$9.52",
+            "image": "https://robohash.org/illofugiatsaepe.png?size=100x100&set=set1"
+        },
+        {
+            "id": 3,
+            "product_name": "City of No Limits, The (la ciudad sin límites, En)",
+            "genre": "Drama|Thriller",
+            "price": "$3.60",
+            "image": "https://robohash.org/quinullaet.png?size=100x100&set=set1"
+        }
+    ]
+  }

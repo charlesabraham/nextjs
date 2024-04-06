@@ -1,0 +1,4 @@
+{
+    "/top-albums" : "/albums?tags=top",
+    "/thriller-movies" : "/movies?genre=Thriller"
+}
