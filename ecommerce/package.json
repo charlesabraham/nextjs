@@ -10,12 +10,16 @@
     "dev:api": "json-server --watch ./data/db2.json --port 4000 -r ./data/routes.json"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.6.0",
     "json-server": "^0.17.4",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie": "^0.6.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

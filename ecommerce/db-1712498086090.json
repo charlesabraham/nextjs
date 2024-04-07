@@ -264,27 +264,6 @@
       "id": "1712495640929",
       "email": "test@test.com",
       "password": "$2a$10$m9MbltUnKw8jZWBjwjuaYuoeKNKumqKWOyC6GAE9KF5fdrvqDtjBq"
-    },
-    {
-      "id": "d-LUVTw"
-    },
-    {
-      "id": "OTFOn6P"
-    },
-    {
-      "id": "1712502593538",
-      "email": "test@test.com",
-      "password": "$2a$10$ci/31vUj/KLCM8RQA6c3Z./DYwDI65b2rQc1q1FBzpBzp935PbbWC"
-    },
-    {
-      "id": "1712502665562",
-      "email": "charles@test.com",
-      "password": "$2a$10$uqVFC0OWerqrdWiCQMpqUubE.Vha3u61Lh1LSs8e1fdHLEXJUeOSq"
-    },
-    {
-      "id": "1712503269138",
-      "email": "test@tester.com",
-      "password": "$2a$10$rTKOQSUQBvZsgV6VrYe5nOx/YbpKD6fAy527bZ0wimVfrM0r3fCKO"
     }
   ]
 }

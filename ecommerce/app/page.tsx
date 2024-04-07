@@ -1,5 +1,23 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import FeaturedMovieList from "@/components/featured";
 
 const Homepage = () => {
+
+const router = useRouter();
+
+useEffect(() => {
+    const isLoggedIn = document.cookie.includes("isLoggedIn");
+
+    if (!isLoggedIn) {
+      router.push("/login");
+    } else {
+      //setIsLoading(false);
+    }
+  }, []);
+
   return (
     <>
 <div className="bg-indigo-600">
@@ -15,46 +33,13 @@ const Homepage = () => {
                   </div>
               </div>
               <div className="mt-8 lg:mt-0">
-                  <img className="rounded-lg shadow-lg w-full" src="https://robohash.org/4R3.png?set=set1&size=600x600" alt="Seasonal Sale Banner"/>
+                  <img className="rounded-lg shadow-lg w-full" src="movie2.jpg" alt="Seasonal Sale Banner"/>
               </div>
           </div>
       </div>
   </div>
 
 
-   <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap -m-4">
-              <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a href="/product-detail" className="block relative h-48 rounded overflow-hidden">
-                      <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://robohash.org/XXY.png?set=set1&size=350x200"/>
-                  </a>
-                  <div className="mt-4">
-                      <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                      <h2 className="text-gray-900 title-font text-lg font-medium">Product Name</h2>
-                      <p className="mt-1">£Price</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-  <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap -m-4">
-              <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                  <a href="/product-detail" className="block relative h-48 rounded overflow-hidden">
-                      <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://robohash.org/XXY.png?set=set1&size=350x200"/>
-                  </a>
-                  <div className="mt-4">
-                      <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-                      <h2 className="text-gray-900 title-font text-lg font-medium">Product Name</h2>
-                      <p className="mt-1">£Price</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
 
 
     </>

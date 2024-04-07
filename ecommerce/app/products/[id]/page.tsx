@@ -9,6 +9,7 @@ const AlbumDetail = async ({ params }: any) => {
   return (
     <>
       <AlbumArt album={album}/>
+
     </>
   );
 };
